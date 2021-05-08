@@ -26,9 +26,9 @@ main_frm.grid(column=0, row=0, sticky=tk.NSEW, padx=5, pady=10)
 
 # ウィジェット作成（メンバーとチーム）
 member_label = ttk.Label(main_frm, text="メンバー")
-member_box = tk.Text(main_frm, height=10, width=20)
+member_box = tk.Text(main_frm, height=30, width=20)
 team_label = ttk.Label(main_frm, text="チーム")
-team_box = tk.Text(main_frm, height=10, width=20)
+team_box = tk.Text(main_frm, height=30, width=20)
 
 # 初期読み込み時、別ファイルのメンバーリストを読み込む
 member_list = teamDivisionMain.get_member_list()
